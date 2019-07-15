@@ -10,7 +10,6 @@ Welcome to test_project's documentation!
    :maxdepth: 2
    :caption: Contents:
    
-   examples.rst
    out
 
 

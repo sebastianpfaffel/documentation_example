@@ -1,6 +1,5 @@
 # Minimal makefile for Sphinx documentation
 #
-nbmerge Turbine_Toolkit_Examples.ipynb EngieTurbineData_Example.ipynb > \source\test.ipynb
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build

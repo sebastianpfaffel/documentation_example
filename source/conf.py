@@ -15,7 +15,10 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
+# Prepare files
+import nbmerge 
+new_nb = nbmerge.merge_notebooks('./',('../EngieTurbineData_Example.ipynb','../Turbine_Toolkit_Examples.ipynb'))
+nbmerge.write_notebook(new_nb,'./out.ipynb')
 
 # -- Project information -----------------------------------------------------
 
